@@ -244,8 +244,7 @@
     <value>Test Proxy</value>
   </data>
   <data name="strCannotImportNormalSessionFile" xml:space="preserve">
-    <value>Hlavní  soubor s nastavenými spojeními nelze importovat. You cannot import a normal connection file.
-Prosím použijte Soubor - Otevřít seznam spojení... pro načtení souboru s nastavením spojení!</value>
+    <value>Hlavní soubor s nastavenými spojeními nelze importovat. Nelze importovat standartní soubor se spojeními, pro takový soubor prosím použijte nabídku "Soubor" - "Otevřít seznam spojení..."!</value>
   </data>
   <data name="strCannotStartPortScan" xml:space="preserve">
     <value>Nelze scanovat porty, IP adresa má nesprávný tvar!</value>
@@ -2520,4 +2519,62 @@ mRemoteNG se nyní ukončí a zahájí instalaci.</value>
   <data name="strAssignedCredential" xml:space="preserve">
      <value>Přiřazené přihlašovací informace</value>
   </data>
+  <data name="strHttpsInsecureAllowAlways" xml:space="preserve">
+    <value>Vždy povolit</value>
+  </data>
+  <data name="strHttpsInsecureAllowOnce" xml:space="preserve">
+    <value>Povolit jednou</value>
+  </data>
+  <data name="strHttpsInsecureDontAllow" xml:space="preserve">
+    <value>Nepovolovat</value>
+  </data>
+  <data name="strHttpsInsecurePrompt" xml:space="preserve">
+    <value>Má být umožněno spojení s adresou nezabezpečenou důvěryhodným certifkátem: {0}?</value>
+  </data>
+  <data name="strHttpsInsecurePromptTitle" xml:space="preserve">
+    <value>Povolit nedůvěryhodný certifikát?</value>
+  </data>
+  <data name="RepositoryIsUnlocked" xml:space="preserve">
+    <value>Vybrané úložiště je odemčeno</value>
+  </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>Chybné heslo</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Zdroj</value>
+  </data>
+  <data name="Unlocking" xml:space="preserve">
+    <value>Odemykám</value>
+  </data>
+  <data name="UnlockCredentialRepository" xml:space="preserve">
+    <value>Odemknout úložiště přihlašovacích údajů</value>
+  </data>
+  <data name="Unlock" xml:space="preserve">
+    <value>Odemknout</value>
+  </data>
+  <data name="PromptUnlockCredReposOnStartup" xml:space="preserve">
+    <value>Při spuštění se dotázat na odemčení úložiště přihlašovacích údajů</value>
+  </data>
+  <data name="Credentials" xml:space="preserve">
+    <value>Přihlašovací údaje</value>
+  </data>
+  <data name="strUpgrade" xml:space="preserve">
+    <value>Aktualizovat</value>
+  </data>
+  <data name="strBack" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="strConnectionFilePath" xml:space="preserve">
+    <value>Cesta k souboru se seznamem spojení:</value>
+  </data>
+  <data name="strCreateAndOpenNewFile" xml:space="preserve">
+    <value>Vytvořit a otevřít nový soubor</value>
+  </data>
+  <data name="strOpenADifferentFile" xml:space="preserve">
+    <value>Otevřít jiný soubor</value>
+  </data>
+  <data name="strCredentialManagerUpgradeDescription" xml:space="preserve">
+    <value>Od verze 1.76 mRemoteNG zavedlo nový systém správy uživatelských přihlašovacích údajů. Tato funkcionalita vyžaduje výraznou změnu způsobu ukládání a interakce s uživatelskými přihlašovacími údaji v rámci mRemoteNG. Proto budete požádáni, abyste provedli nevratnou aktualizaci Vašeho konfiguračního souboru, ve kterém máte uložen sezname Vašich spojení pro mRemoteNG.
+
+Tato stránka Vás provede tímto procesem aktualizace souboru se seznamem spojení, nebo Vám umožní otevřít jiný či nový soubor se seznamem spojení, pokud si uvedenou aktualizaci nepřejete provést s Vaším stávajícím souborem.</value>
 </root>
